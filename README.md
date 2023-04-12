@@ -23,16 +23,16 @@ simulations, as they will overwhelm the output.
 Note 2: Depending on the speed and memory limitations of your system, large k-values may be lengthy to 
 compute or crash the program. 
 
-#Example 
+# Example 
 main.go.exe -k=20 -uptok=true -samples=1000 
 This statement will run 1000 simulations for each k-value from 2 to 20. 
 
-#Output 
+# Output 
 After the program finishes, the CSV file containing the results will be output to the same directory as the 
 program. The file name indicates the chosen k value and the “uptok” parameter (if used) and has the 
 Unix time in seconds at which the program was started appended to it to ensure uniqueness.
 
-#Visualization
+# Visualization
 A Jupyter Notebook is included that generates line graphs showing the message complexity of all 
 simulations for each k in comparison to their upper bound, as well as the average time taken for each k, 
 factor increases for time, and the ratio of upper bound to highest seen message complexity for each k. 
