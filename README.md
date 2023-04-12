@@ -3,7 +3,7 @@ A Go program that simulates oriented hypercube networks and runs the HyperElect 
  
 To run the program, navigate to the program directory and run main.go.exe. By default, the program 
 runs 100 simulations for a hypercube of dimension 5 and does not print debug statements. However, optional 
-command-line flags can be specified to change the program operaƟon, of the form -flag=value. These 
+command-line flags can be specified to change the program operation, of the form -flag=value. These 
 are as follows: 
 
 -k: An integer specifying the highest value of k to run simulations for. Default: 5 
@@ -12,7 +12,7 @@ are as follows:
 run simulations for the provided k-value. k-values of 0 and 1 are not considered as they’re trivial to 
 compute. Default: false 
 
--samples: An integer specifying the number of simulaƟons to run for each k-value. Default: 100 
+-samples: An integer specifying the number of simulations to run for each k-value. Default: 100 
 
 -debug: A Boolean (true or false). If true, we print debug statements tracing the execution of HyperElect, as well as initial and final configurations of all nodes. If false, we do not print debug 
 statements. Default: false 
