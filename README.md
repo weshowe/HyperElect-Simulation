@@ -1,5 +1,5 @@
 # HyperElect-Simulation
-A Go program that simulates oriented hypercube networks and runs the HyperElect leader election algorithm to determine message and time complexity relative to the algorithm's theoretical upper bound. Oriented hypercubes of size 2^k are created where individual nodes are represented as goroutines that communicate with each other across their respective links. Reference: https://doi.org/10.1006/jpdc.1996.0026
+A Go program that simulates oriented hypercube networks and runs the HyperElect leader election algorithm to determine message and time complexity relative to the algorithm's theoretical upper bound. Oriented hypercubes of size 2^k are created where individual nodes are represented as goroutines that communicate with each other across their respective k links. IDs are assigned randomly with each simulation, with an ID of 0 being the lowest in all cases. Reference: https://doi.org/10.1006/jpdc.1996.0026
  
 To run the program, navigate to the program directory and run main.go.exe. By default, the program 
 runs 100 simulations for a hypercube of dimension 5 and does not print debug statements. However, optional 
